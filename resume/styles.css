@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-
-
 *{
     font-family: "Bebas Neue", sans-serif;
 }
@@ -29,8 +27,6 @@ body{
 }
 
 header{ 
-    /*position: relative;
-    top: 20rem;*/
     position:sticky;
     text-align: center;  
     padding: 280px 50px 200px 50px;
