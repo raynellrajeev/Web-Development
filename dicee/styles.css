@@ -1,0 +1,54 @@
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container{
+  display: grid;
+  grid-template:0fr 1fr 1fr 2fr 1fr 0fr/repeat(8, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+.heading{
+  grid-area: 2/3/3/7;
+  margin: 0px;
+  padding: 0px;
+}
+.player1{
+  grid-area:3/3/4/5 ;
+}
+.player2{
+  grid-area: 3/5/4/7;
+}
+.dice1{
+  grid-area: 4/3/5/5;
+
+  justify-self: center;
+  height: 180px;
+}
+.dice2{
+  grid-area : 4/5/5/7;
+
+  justify-self: center;
+  height: 180px;
+}
+.button {
+  grid-area: 5/-6/-2/-4;
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+}
