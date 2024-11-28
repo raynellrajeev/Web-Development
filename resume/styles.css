@@ -1,57 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-*{
-    font-family: "Bebas Neue", sans-serif;
+* {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-h1{
-    font-size:4rem;
-    line-height: 0;
-}
-h4{
-    font-size: 1.55rem;
-    line-height:0;
-}
+
+
 a{
     text-decoration:none;
     color:#8a8a8a;
     font-size: .86rem;;
+    
 }
-
-body{
-    background-color:#142f40;
-    color: #bf835f;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-header{ 
-    position:sticky;
-    text-align: center;  
-    padding: 280px 50px 200px 50px;
-}
-
-
 a:hover{
     color:#bf835f;
 }
+body{
+    
+    background-color:#142f40;
+    color: #bf835f;
+}
+.custom-offcanvas{
+    background-color:#05141f;
+    color: #bf835f;
+}
+.navbar{
+    background-color: #0e212dfb;
+    color: #bf835f;
+}
+.Profile-Pic{
+    height: 30px;
+    border-radius: 50%;
+}
 
-div{
+header{
     display: flex;
-    flex-direction: column;
-    padding: 280px 0px 280px 0px;
-    text-align:center ;
-
+    justify-content: center;
+    align-items: center;
 }
-footer{
-    text-align:center;
+.colour{
+    background-color: #142f40;
+        color: #bf835f;
+}
+.Pic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.navbar-toggler svg {
+    fill: #bf835f;
+}
+.card{
+    background-image:url("watsonx.jpeg");
+    height: 50vh;
+    width: 100vh;
 }
 
-@media (max-width:480px) {
-    *{
-        font-size: 12px;
-    }
-
+img{
+    -webkit-filter: drop-shadow(5px 5px 5px #142f40);
+    filter: drop-shadow(30px 20px 30px #031724);
+    
 }
-
